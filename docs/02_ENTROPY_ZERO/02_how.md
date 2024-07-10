@@ -25,8 +25,10 @@ which allows the miner to "re-roll" its wait time without affecting the long-run
 Messages are received by an oracle, which measures the characteristics of the entropy received and the frequency at which messages were received. These are tabulated and scored and, once a day, all miners who have sent at least one message since the last ranking are ranked according to their score.
 
 Daily token rewards are determined according to the formula:
-- 2/3 equally distributed to the top half of miners
-- 1/3 distributed to the lower half of miners, where amount of reward per miner decreases linearly with rank and the lowest-ranking miner receives almost zero
+- rewards are monotonic with respect to rank 
+- 2/3 are equally distributed to the top half of miners
+- 1/3 is distributed to the bottom half of miners, where amount of reward per miner decreases linearly with decreasing rank
+- the lowest-ranking miner receives as close to nothing as possible
 
 ## Token claim and burn
 

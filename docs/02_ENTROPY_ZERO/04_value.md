@@ -16,7 +16,7 @@ However, this does not preclude demand for the _process of generating entropy_. 
 
 ## Memecoins
 
-Valuing nothingness above rationally justified expected value is a type of _nihilism_. In finance, the trading of memecoins, which are finanical instruments that have no use outside of themselves, represents nihilism in its purest form.
+Valuing nothingness above rationally justified expected value is a type of _nihilism_. In finance, the trading of memecoins, which are financial instruments that have no use outside of themselves, represents nihilism in its purest form.
 
 With no intrinsic value to the data it mines, ENTROPY is therefore a memecoin.
 
