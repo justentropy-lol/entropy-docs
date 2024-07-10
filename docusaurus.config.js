@@ -63,9 +63,18 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        { name: 'twitter:card', content: 'summary' },
-        { name: 'twitter:image', content: 'https://2gkirazboc1los4a.public.blob.vercel-storage.com/assets/ogcard_docs-OSoiwfkkilmcNWJ249gu92gXceEV1A' },
+        { property: 'og:title', content: 'Pure DePIN docs' },
+        { property: 'og:description', content: 'Just. Pure. DePIN.' },
         { property: 'og:image', content: 'https://2gkirazboc1los4a.public.blob.vercel-storage.com/assets/ogcard_docs-OSoiwfkkilmcNWJ249gu92gXceEV1A' },
+        { property: 'og:url', content: 'https://docs.puredepin.com' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:site_name', content: 'Pure DePIN docs' },
+        { property: 'og:locale', content: 'en_US' },
+        { name: 'twitter:card', content: 'summary' },
+        { name: 'twitter:title', content: 'Pure DePIN docs' },
+        { name: 'twitter:description', content: 'Just. Pure. DePIN.' },
+        { name: 'twitter:image', content: 'https://2gkirazboc1los4a.public.blob.vercel-storage.com/assets/ogcard_docs-OSoiwfkkilmcNWJ249gu92gXceEV1A' },
+        { name: 'twitter:site', content: '@justentropylol' },        
       ],
       navbar: {
         title: 'Pure DePIN',
