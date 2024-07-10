@@ -35,25 +35,6 @@ const config = {
     locales: ['en'],
   },
 
-  plugins: [
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        redirects: [
-          {
-            to: '/docs/intro',
-            from: '/',
-          },
-          {
-            to: '/docs/intro',
-            from: '/docs',
-          },
-        ],
-      },
-    ],
-  ],
-
-
 
   presets: [
     [
@@ -61,6 +42,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
           editUrl:
             'https://github.com/justentropy-lol',
@@ -94,7 +76,7 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docsSidebar',
             position: 'left',
             label: 'Docs',
           },
@@ -115,7 +97,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs/intro',
+                to: '/',
               },
               {
                 label: 'Blog',

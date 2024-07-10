@@ -6,7 +6,7 @@ sidebar_position: 3
 
 ## Security model
 
-ENTROPY is a permissioned network, allowing only pre-registered hardware to mine for tokens.
+ENTROPY is a permissioned network, allowing only pre-registered hardware to mine tokens.
 
 The network need perform only minimal quality control. Beyond measuring the randomness of data received, there is no need to prevent maliciousness because one cannot be more random than randomness itself.
 
