@@ -1,0 +1,12 @@
+entropyzero:
+  label: ENTROPY ZERO
+  permalink: /entropyzero
+  description: ENTROPY ZERO tag description
+entropy:
+  label: ENTROPY
+  permalink: /entropy
+  description: ENTROPY tag description
+puredepin:
+  label: Pure DePIN
+  permalink: /puredepin
+  description: Pure DePIN tag description
