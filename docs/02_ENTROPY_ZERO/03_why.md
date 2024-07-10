@@ -16,5 +16,5 @@ $-p\log(p) - (1-p)\log(1-p) \leq 1$
 
 for any $p \in [0,1]$.
 
-The weakness of the network is in the statistical tools used by the oracle to determine randomness. However, given the large supply of free entropy available on the market, securing quality of random signals is not a high priority at this time.
+The weakness of the network is in the statistical tools used by the oracle to determine randomness. However, given the large supply of free entropy available on the market, securing the quality of random signals is not a high priority at this time.
 

@@ -18,11 +18,11 @@ where $\lambda$ is equal to an hour. The choice of exponential distribution has 
 
 $P(T_k = t+u ~|~ T_k > u) = P(T_k = t),~t,u \geq 0$
 
-which allows the miner to "re-roll" its wait time without affecting the long-run distribution. Assuming the disconnection is less than a few minutes, this gives miners the benefit of being able to temporarily disconnect from the network almost without penalty and can be useful in the case of a temporary loss of power or Internet connection.
+which allows the miner to "re-roll" its wait time without affecting the long-run distribution. Assuming disconnections last less than a few minutes, this gives miners the benefit of being able to temporarily disconnect from the network almost without penalty and can be useful in the case of temporary loss of power or Internet connection.
 
 ## Token reward
 
-The messages are received by an oracle, which measures the characteristics of the entropy received and the frequency at which messages were received. These are tabulated and scored and, once a day, all miners who have sent at least one message since the last ranking are ranked according to their score.
+Messages are received by an oracle, which measures the characteristics of the entropy received and the frequency at which messages were received. These are tabulated and scored and, once a day, all miners who have sent at least one message since the last ranking are ranked according to their score.
 
 Daily token rewards are determined according to the formula:
 - 2/3 equally distributed to the top half of miners

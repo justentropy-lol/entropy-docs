@@ -6,9 +6,7 @@ sidebar_position: 4
 
 The question of value is always at the forefront of individual minds. Why do we do what we do?
 
-In a theoretical sense, the value of entropy is very much zero because  _maximal entropy is equivalent to nothingness_. However, this is completely definitional; there exists no requirement that a value function be lower-bounded by zero.
-
-At times, nothingness might be preferable to the fulfillment of an objective. This is particularly true in muli-agent sytems where individual agents' objectives often come into conflict.
+In a theoretical sense, the value of entropy is very much zero because  _maximal entropy is equivalent to nothingness_. However, this is completely definitional; there exists no requirement that a value function be lower-bounded by zero. At times, nothingness might be preferable to the fulfillment of an objective and this is particularly true in muli-agent sytems where individual agents' objectives often come into conflict.
 
 ## Market value
 
