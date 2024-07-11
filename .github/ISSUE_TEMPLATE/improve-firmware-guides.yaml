@@ -1,0 +1,44 @@
+name: Improve firmware guides
+description: Suggest improvements to firmware guides
+title: "[DOCS]"
+labels: [documentation]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide your feedback on the miner setup process.
+  - type: input
+    id: contact
+    attributes:
+      label: Your Discord server username
+      description: If you prefer to link this to a discussion on the server
+    validations:
+      required: false
+  - type: dropdown
+    id: operating-systems
+    attributes:
+      label: Which operating system are you running?
+      multiple: true
+      options:
+        - Windows
+        - Linux
+        - MacOS
+    validations:
+      required: true
+  - type: dropdown
+    id: resolved
+    attributes:
+      label: Have you resolved the issue?
+      description: If yes, please provide the solution below
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Description of issue and/or solution
+      placeholder: Describe the encountered errors. Give us as much info as you can!
+    validations:
+      required: true
