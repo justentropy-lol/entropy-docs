@@ -1,6 +1,6 @@
 name: Improve firmware guides
 description: Suggest improvements to firmware guides
-title: "[DOCS]"
+title: "[DOCS:]"
 labels: [documentation]
 body:
   - type: markdown
@@ -30,9 +30,10 @@ body:
     attributes:
       label: Have you resolved the issue?
       description: If yes, please provide the solution below
+      multiple: false
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
   - type: textarea
