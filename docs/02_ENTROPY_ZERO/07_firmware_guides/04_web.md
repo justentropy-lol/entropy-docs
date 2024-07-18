@@ -12,12 +12,12 @@ Instructions to onboard your DIY miner using the ESP Tool web interface
 ### Guide
 
 ### Step 1: Download your firmware file and note its location in your filesystem
-* The filename will look something like `ENTROPY_ww_xxxxx_yyyyyy_zzzz.bin`.
+* The filename will look something like `ww_xxxxx_yyyyyy_zzzz.bin`.
 * `w`, `x`, `y`, and `z` will be unique to your file.
 
 ### Step 2: Plug your board into your computer
 
-* Some boards have one USB connectors and other have 2. On boards with 2 connectors, either will work.
+* Some boards have one USB connector and other have 2. On boards with 2 connectors, either will work.
 
 ### Step 3: Open your browser
 
