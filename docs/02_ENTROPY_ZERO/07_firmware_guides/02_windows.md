@@ -2,12 +2,12 @@
 sidebar_position: 3
 ---
 
-# MacOS
+# Windows
 
-Instructions to onboard your DIY miner using MacOS
+Instructions to onboard your DIY miner using Windows
 
 ### Prerequisites
-* [Python](https://www.python.org/downloads/macos/)
+* [Python](https://www.python.org/downloads/windows/)
 * 2.4GHz WiFi connection
 * Android or IOS phone
 
@@ -15,30 +15,25 @@ Instructions to onboard your DIY miner using MacOS
 
 ### Step 1: Ready the device
 
-* Open a terminal window
+* Open a command window
+  * Type `cmd` in the search bar and press <kbd>Enter</kbd>
 
 * Install the ESP bootloader utility
   ```
-  pip3 install esptool
+  pip install esptool
   ```
 
-* Connect your ESP32 or ESP32-S3 and *allow accessory to connect*
+* Connect your ESP32 or ESP32-S3
   * You may have multiple connection ports on the device; the correct one is likely labeled `USB`
 
 * Find the port where the board is connected
   * List all connections before and after plugging in the device
     ```
-    ls /dev/tty.*
+    mode
     ```
+    * Look for something like `COM*`
   * You will likely need to install a driver to allow the board to communicate with your computer
-    * **This part can be complicated by the Mac's security features**
-    * Typically, the ESP32-S3 requires the CP210x driver
     * Instructions are [here](https://docs.espressif.com/projects/esp-idf/en/v5.2.2/esp32s3/get-started/establish-serial-connection.html)
-  * Once you install the driver, find the port again by putting the device into Boot Mode (see below) and checking the connections
-    * Boot Mode instructions:
-      * Hold the BOOT button
-      * Pressing and release the RESET button
-      * Release the BOOT button
 
 ### Step 2: Flash firmware
 
@@ -49,21 +44,21 @@ Instructions to onboard your DIY miner using MacOS
 
 * Clear the board of any previous software if necessary
     ```
-    esptool.py --chip esp32* --port /dev/tty.* erase_flash
+    esptool.py --chip esp32* --port COM* erase_flash
     ```
+  * You may need to drop `.py` and just use `esptool`
   * `esp32*` is `esp32` or `esp32s3`, depending on your board
 * Flash the firmware
     ```
-    esptool.py --chip esp32* --port /dev/tty.* --baud 115200 write_flash --flash_mode dio 0x0 YOUR_FIRMWARE.bin
+    esptool.py --chip esp32* --port COM* --baud 115200 write_flash --flash_mode dio 0x0 YOUR_FIRMWARE.bin
     ```
-    * Unlikely, but you might need to put the device into Boot Mode
-* To monitor the device, run the GNU Screen utility
-    ```
-    screen -L /dev/tty.* 115200
-    ```
-    * To quit: <kbd>ctrl+A</kbd> <kbd>ctrl+D</kbd>
+* To monitor the device, install and run [PuTTY](https://www.putty.org/)
+  * Under <kbd>Session</kbd> select the <kbd>Serial</kbd> radio button
+  * Enter your device port `COM*` under <kbd>Serial line</kbd>
+  * Set <kbd>Speed</kbd> to the baud rate `115200`
+  * Click <kbd>Open</kbd>
 
-### Step 3: Connect to WiFi [ESP32 only supports the 2.4GHz band]
+### Step 3: Connect to WiFi [ESP32 boards only support the 2.4GHz band]
 
 * Download an ESP WiFi config app from your app store
   * The following have been tested
@@ -74,11 +69,9 @@ Instructions to onboard your DIY miner using MacOS
 
 * Open the app and share the password with the device
 
-* If you have a firewall, please ensure that outbound traffic on port 8883 is allowed as this is the port used for secure MQTT connections
-
 ### Step 4: Set it and forget it
 
-* Monitor the device over the terminal for as long as you like
+* Monitor the device over PuTTY for as long as you like
 
 * Disconnect and plug the device to a 5V power source
   * Any USB adapter should work
