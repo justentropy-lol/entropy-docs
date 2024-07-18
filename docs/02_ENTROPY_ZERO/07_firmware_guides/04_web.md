@@ -46,28 +46,34 @@ connected succesfully.
 
 ![alt text](image-2.png)
 
-### Step 5: Set the flash address
+### Step 5: Erase the flash
+
+* Under the program heading, click on the `Erase Flash` button
+
+![alt text](image-9.png)
+
+### Step 6: Set the flash address
 
 * By default the address is set to 0x1000. Change it to 0x0000
 
 ![alt text](image-3.png)
 
-### Step 6: Click on the `Choose File` button and select the file you downloaded in step 1
+### Step 7: Click on the `Choose File` button and select the file you downloaded in step 1
 
 ![alt text](image-4.png)
 
-### Step 7: Click on the `Program` button
+### Step 8: Click on the `Program` button
 
 * You will see output in the console window. When the programming operation is complete
 it should look something like the following:
 
 ![alt text](image-5.png)
 
-### Step 8: Click on the `Disconnect` button
+### Step 9: Click on the `Disconnect` button
 
 ![alt text](image-6.png)
 
-### Step 9: Verify that the firmware was loaded correctly 
+### Step 10: Verify that the firmware was loaded correctly 
 
 * Under the `Console` heading, click on the `Start` button
 
@@ -84,7 +90,7 @@ serial console as follows:
 * You can leave the console connected to monitor the firmware's response to the 
 remaining steps
 
-### Step 10: Connect to WiFi [ESP32 boards only support the 2.4GHz band]
+### Step 11: Connect to WiFi [ESP32 boards only support the 2.4GHz band]
 
 * Download an ESP WiFi config app from your app store
   * The following have been tested
@@ -95,7 +101,7 @@ remaining steps
 
 * Open the app and share the password with the device
 
-### Step 11: Set it and forget it
+### Step 12: Set it and forget it
 
 * Monitor the device over PuTTY for as long as you like
 
