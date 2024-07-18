@@ -103,7 +103,7 @@ remaining steps
 
 ### Step 12: Set it and forget it
 
-* Monitor the device over PuTTY for as long as you like
+* Monitor the device using the serial console for as long as you like
 
 * Disconnect and plug the device to a 5V power source
   * Any USB adapter should work
