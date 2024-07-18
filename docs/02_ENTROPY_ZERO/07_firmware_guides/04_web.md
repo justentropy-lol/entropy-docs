@@ -52,6 +52,15 @@ connected succesfully.
 
 ![alt text](image-9.png)
 
+* The console screen should look as follows:
+
+![alt text](image-10.png)
+
+* After about a minute the operation should complete, after which the console will look as follows:
+
+![alt text](image-11.png)
+
+
 ### Step 6: Set the flash address
 
 * By default the address is set to 0x1000. Change it to 0x0000
