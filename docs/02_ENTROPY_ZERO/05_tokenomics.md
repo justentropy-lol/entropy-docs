@@ -14,12 +14,14 @@ To begin, the network issues rewards totaling approximately 76 million tokens pe
 
 ## The Second Law
 
-According to the Second Law of Thermodynamics, entropy in any isolated system may never decrease.
+According to The Second Law of Thermodynamics, entropy in any isolated system may never decrease. ENTROPY mirrors this physical law with a law of its own.
 
-In the ENTROPY network, tokens may be withdrawn from a mining wallet. However, this may create a local entropy debt.
+The Second Law of ENTROPY concerns itself with the claiming of tokens that miners have generated from the ENTROPY network.
 
-According to the Second Law of ENTROPY, the entropy debt created when tokens are withdrawn must be repaid by burning tokens, or by replenishing the token balance. **Therefore, new tokens can only be claimed if the number of tokens in the wallet has not been less than the total number of tokens claimed, minus the number of tokens burned, at any time during the past seven days.**
+According to The Second Law, tokens may be withdrawn from a miner's wallet but this may create a local entropy deficit. The deficit created when tokens are withdrawn may be reduced in one of two ways: either by the burning of tokens through the automated seven-day burning mechanism, or by simply replenishing the token balance. Stated formally:
 
-The impact of the Second Law is that it causes miners to think about their long-term participation in the network, but does not punish transfers outright. Miners may choose to withdraw a large a number of tokens, but must understand that their ability to claim may be curtailed, and any tokens they mine in the future may be burned through the automatic burn mechanism, until the entropy debt is repaid.
+**New tokens may only be claimed if the amount of tokens in a miner's wallet has not been less than the total number of tokens ever claimed, minus the number of tokens ever burned, at any time during the past seven days.**
 
-Whatever tokens are burned through the automatic burn mechanism are counted against the entropy debt, so if sufficient mining continues, the claim restriction will eventually be lifted.
+The impact of the Second Law is that it causes miners to think about their long-term participation in the network, but does not punish transfers outright. Miners may choose to withdraw a large a number of tokens, but must understand that their ability to claim may be curtailed, and that any tokens they mine in the future may be automatically burned until the entropy deficit is resolved.
+
+Effectively, entropy deficit may be resolved directly through mining. Because tokens that are burned through the automatic burn mechanism are counted against the deficit, sufficient mining results in the lifting of the claim restriction.
