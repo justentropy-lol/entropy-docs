@@ -14,10 +14,12 @@ To begin, the network issues rewards totaling approximately 76 million tokens pe
 
 ## The Second Law
 
-An interpretation of The Second Law of Thermodynamics is that entropy may only increase. The ENTROPY network has taken this interpretation a step further and implemented its own Second Law:
+According to the Second Law of Thermodynamics, entropy in any isolated system may never decrease.
 
-**Miners are not allowed to claim if the amount of tokens in their wallet has in the past seven days been less than the total amount they have ever claimed minus the total amount that has been burned on their behalf.**
+In the ENTROPY network, tokens may be withdrawn from a mining wallet. However, this may create a local entropy debt.
 
-The impact of The Second Law is that it causes miners to think about their long-term participation in the network but does not punish transfers outright. Miners may choose to transfer a large a number of tokens, but must understand that their ability to claim may be curtailed and any tokens they mine burned through the automatic burn mechanism.
+According to the Second Law of ENTROPY, the entropy debt created when tokens are withdrawn must be repaid by burning tokens, or by replenishing the token balance. **Therefore, new tokens can only be claimed if the number of tokens in the wallet has not been less than the total number of tokens claimed, minus the number of tokens burned, at any time during the past seven days.**
 
-Note that whatever tokens are burned are counted towards paying off a miner's "entropy debt" which counts towards lifting the restriction on claims.
+The impact of the Second Law is that it causes miners to think about their long-term participation in the network, but does not punish transfers outright. Miners may choose to withdraw a large a number of tokens, but must understand that their ability to claim may be curtailed, and any tokens they mine in the future may be burned through the automatic burn mechanism, until the entropy debt is repaid.
+
+Whatever tokens are burned through the automatic burn mechanism are counted against the entropy debt, so if sufficient mining continues, the claim restriction will eventually be lifted.
