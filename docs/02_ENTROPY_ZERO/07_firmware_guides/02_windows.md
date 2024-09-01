@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Windows
 
 Instructions to onboard your DIY miner using Windows
@@ -22,6 +18,10 @@ Instructions to onboard your DIY miner using Windows
   ```
   pip install esptool
   ```
+  * Verify if `esptool` is installed correctly by typing `esptool.py -h` in the command prompt.
+  * If `esptool` is not present or the installation fails, download the Windows package from [here](https://github.com/espressif/esptool/releases).
+    * After downloading, extract the ZIP file to any directory of your choice.
+    * Inside the extracted folder, you will find the `esptool.exe` binary. Use the path to this binary (e.g., `/PATH/TO/ESPTOOL/PACKAGE/esptool.exe`) in the subsequent steps.
 
 * Connect your ESP32 or ESP32-S3
   * You may have multiple connection ports on the device; the correct one is likely labeled `USB`
@@ -42,16 +42,28 @@ Instructions to onboard your DIY miner using Windows
 
 * Change your working directory to the location of the firmware binary `YOUR_FIRMWARE.bin`
 
-* Clear the board of any previous software if necessary
+* Clear the board of any previous software if necessary:
+  * If you have installed the `esptool` Python package:
     ```
     esptool.py --chip esp32* --port COM* erase_flash
     ```
-  * You may need to drop `.py` and just use `esptool`
-  * `esp32*` is `esp32` or `esp32s3`, depending on your board
-* Flash the firmware
+  * If you are using the `esptool.exe` from the downloaded ZIP package:
+    ```
+    /PATH/TO/ESPTOOL/PACKAGE/esptool.exe --chip esp32* --port COM* erase_flash
+    ```
+
+  * `esp32*` is `esp32` or `esp32s3`, depending on your board.
+
+* Flash the firmware:
+  * If you have installed the `esptool` Python package:
     ```
     esptool.py --chip esp32* --port COM* --baud 115200 write_flash --flash_mode dio 0x0 YOUR_FIRMWARE.bin
     ```
+  * If you are using the `esptool.exe` from the downloaded ZIP package:
+    ```
+    /PATH/TO/ESPTOOL/PACKAGE/esptool.exe --chip esp32* --port COM* --baud 115200 write_flash --flash_mode dio 0x0 YOUR_FIRMWARE.bin
+    ```
+
 * To monitor the device, install and run [PuTTY](https://www.putty.org/)
   * Under <kbd>Session</kbd> select the <kbd>Serial</kbd> radio button
   * Enter your device port `COM*` under <kbd>Serial line</kbd>
@@ -59,6 +71,8 @@ Instructions to onboard your DIY miner using Windows
   * Click <kbd>Open</kbd>
 
 ### Step 3: Connect to WiFi [ESP32 boards only support the 2.4GHz band]
+
+**IMPORTANT:** Ensure that your WiFi access point is configured to use only the 2.4GHz band. If both 2.4GHz and 5GHz bands are enabled, disable the 5GHz band to avoid connection issues.
 
 * Download an ESP WiFi config app from your app store
   * The following have been tested
