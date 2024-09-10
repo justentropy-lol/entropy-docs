@@ -11,6 +11,8 @@ Instructions to onboard your DIY miner using Linux
 * 2.4GHz WiFi connection
 * Android or IOS phone
 
+## MAKE SURE YOUR USB CABLE IS A DATA CABLE. MANY USB CABLES ARE POWER ONLY CABLES  AND WILL NOT WORK FOR PROGRAMMING OR MONITORING!!!
+
 ### Guide
 
 ### Step 1: Ready the device
