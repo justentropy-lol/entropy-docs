@@ -26,12 +26,12 @@ Messages are received by an oracle, which measures the characteristics of the en
 
 Daily token rewards are determined according to the formula:
 - rewards are monotonic with respect to rank 
-- 2/3 are equally distributed to the top half of miners
-- 1/3 is distributed to the bottom half of miners, where amount of reward per miner decreases linearly with decreasing rank
+- 8/9 are equally distributed to the top 80% of miners
+- 1/9 is distributed to the bottom 20%, where amount of reward per miner decreases linearly with decreasing rank
 - the lowest-ranking miner receives as close to nothing as possible
 
 ## Token claim and burn
 
-Rewards must be claimed from the [ENTROPY portal](https://justentropy.lol). Each claim is subject to a fee totaling 1/42 of tokens claimed, which is used to fund the project treasury.
+Rewards must be claimed from the [ENTROPY portal](https://justentropy.lol). Each claim is subject to a fee totaling 1/42 of tokens claimed, used to fund the project treasury.
 
 Tokens that remain unclaimed for a period of 7 days are permanently burned.
