@@ -17,6 +17,14 @@ With this role, a miner is guaranteed at least one mining credential, allowing t
 
 See [firmware guides](../category/firmware-guides) for instructions on how to flash.
 
+## Equipment
+
+Mining requires an ESP32 or ESP32-S3 device. These inexpensive devices can be
+purchased through online retailers. You can read more about ESP32 on the
+ESPRESSIF website:
+
+https://www.espressif.com/en/products/socs/esp32
+
 ## Claiming
 
 Claims of the ENTROPY token may be done at:
