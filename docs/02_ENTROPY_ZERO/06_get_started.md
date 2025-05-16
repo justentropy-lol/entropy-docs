@@ -6,7 +6,7 @@ sidebar_position: 6
 
 To join ENTROPY, one may apply for a role as a miner by joining the Discord server:
 
-https://discord.gg/puredepin
+https://discord.gg/minerseatfirst
 
 ## Mining
 

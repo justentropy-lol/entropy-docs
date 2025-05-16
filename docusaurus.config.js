@@ -119,7 +119,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discord.gg/puredepin',
+                href: 'https://discord.gg/minerseatfirst',
               },
               {
                 label: '𝕏',
