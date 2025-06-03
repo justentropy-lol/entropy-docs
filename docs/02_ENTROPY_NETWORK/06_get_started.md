@@ -21,5 +21,5 @@ With the DIY role, a miner is guaranteed at least one mining credential, allowin
 See the [mining guides](../category/diy-guides) for instructions on how to flash.
 
 ### Ashlar
-See the [mining guides](../category/ashlar_config) for instructions on how to set up the Ashlar.
+See the [mining guides](../MINING/ashlar_config) for instructions on how to set up the Ashlar.
 
