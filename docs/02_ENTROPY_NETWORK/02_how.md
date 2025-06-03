@@ -19,19 +19,3 @@ where $\lambda$ is equal to an hour. The choice of exponential distribution has 
 $P(T_k = t+u ~|~ T_k > u) = P(T_k = t),~t,u \geq 0$
 
 which allows the miner to "re-roll" its wait time without affecting the long-run distribution. Assuming disconnections last less than a few minutes, this gives miners the benefit of being able to temporarily disconnect from the network almost without penalty and can be useful in the case of temporary loss of power or Internet connection.
-
-## Token reward
-
-Messages are received by an oracle, which measures the characteristics of the entropy received and the frequency at which messages were received. These are tabulated and scored and, once a day, all miners who have sent at least one message since the last ranking are ranked according to their score.
-
-Daily token rewards are determined according to the formula:
-- rewards are distributed in proportion to a miner's score
-- all but the bottom 25 miners receive a base score of 1.00
-- miners in the bottom 25 receive a base score of 0.05
-- holding certain NFTs in the receiving wallet provides a score multiplier
-
-## Token claim and burn
-
-Rewards must be claimed from the [ENTROPY portal](https://justentropy.lol). Each claim is subject to a fee totaling 1/42 of tokens claimed, used to fund the project treasury.
-
-Tokens that remain unclaimed for a period of 7 days are permanently burned.

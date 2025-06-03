@@ -6,7 +6,7 @@ sidebar_position: 8
 
 Claims of the ENTROPY token may be done at:
 
-https://justentropy.lol
+https://justentropy.lol/console
 
 The portal supports Phantom, Solflare, and Backpack. All three support Ledger, allowing miners to use a Ledger through one of the three options.
 

@@ -10,12 +10,12 @@ import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Pure DePIN docs',
-  tagline: 'Just. Pure. DePIN.',
+  title: 'ENTROPY docs',
+  tagline: 'Just. ENTROPY. LOL.',
   favicon: 'img/logo.png',
 
   // Set the production url of your site here
-  url: 'https://docs.puredepin.com',
+  url: 'https://docs.justentropy.lol',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -63,23 +63,23 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        { property: 'og:title', content: 'Pure DePIN docs' },
-        { property: 'og:description', content: 'Just. Pure. DePIN.' },
+        { property: 'og:title', content: 'ENTROPY docs' },
+        { property: 'og:description', content: 'Just. ENTROPY. LOL.' },
         { property: 'og:image', content: 'https://2gkirazboc1los4a.public.blob.vercel-storage.com/assets/ogcard_docs-OSoiwfkkilmcNWJ249gu92gXceEV1A' },
-        { property: 'og:url', content: 'https://docs.puredepin.com' },
+        { property: 'og:url', content: 'https://docs.justentropy.lol' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:site_name', content: 'Pure DePIN docs' },
+        { property: 'og:site_name', content: 'ENTROPY docs' },
         { property: 'og:locale', content: 'en_US' },
         { name: 'twitter:card', content: 'summary' },
-        { name: 'twitter:title', content: 'Pure DePIN docs' },
-        { name: 'twitter:description', content: 'Just. Pure. DePIN.' },
+        { name: 'twitter:title', content: 'ENTROPY docs' },
+        { name: 'twitter:description', content: 'Just. ENTROPY. LOL.' },
         { name: 'twitter:image', content: 'https://2gkirazboc1los4a.public.blob.vercel-storage.com/assets/ogcard_docs-OSoiwfkkilmcNWJ249gu92gXceEV1A' },
         { name: 'twitter:site', content: '@justentropylol' },        
       ],
       navbar: {
-        title: 'Pure DePIN',
+        title: 'ENTROPY',
         logo: {
-          alt: 'Pure DePIN logo',
+          alt: 'ENTROPY logo',
           src: 'img/logo.png',
         },
         items: [
@@ -141,7 +141,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Pure DePIN. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Just ENTROPY, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

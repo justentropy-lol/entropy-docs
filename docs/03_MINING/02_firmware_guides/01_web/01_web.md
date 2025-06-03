@@ -10,8 +10,7 @@ Instructions to onboard your DIY miner using the ESP Tool web interface
 * A web browser
 * 2.4GHz WiFi connection
 * Android or IOS phone
-
-## MAKE SURE YOUR USB CABLE IS A DATA CABLE. MANY USB CABLES ARE POWER ONLY CABLES  AND WILL NOT WORK FOR PROGRAMMING OR MONITORING!!!
+* USB data cable **Make sure your USB cable is a data cable. Many USB cables are power-only and will not work for programming or monitoring!**
 
 ### Guide
 

@@ -2,18 +2,28 @@
 slug: /
 ---
 
-# Welcome to Pure DePIN
+# Welcome to Just ENTROPY
 
-Decentralized physical infrastructure networks (DePINs) are networks of physical infrastructure coordinated through the use of cryptocurrencies. Like the rest of web3, there exists an expectation that decentralizing trust and distributing coordination might lead to creation of value through improved economic growth and efficiency.
+Crypto mining concerns itself with the distributed creation of currency via computing algorithms that range from fully decentralized to permissioned. One approach to this is that of decentralized physical infrastructure networks (DePINs), which coordinate physical field devices that earn rewards based on network needs.
 
-However, as with most of web3, expectations are generally driven by hype and it is currently very difficult to separate hope from reality. In particular, within DePIN, there prevails an attitude of ["if we build it, they will come,"](https://x.com/KyleSamani/status/1808941925795574130) i.e., that growth in supply of a technology justifies future demand for that same technology.
+Advocates claim DePINs unlock economic efficiencies and network effects that centralized systems cannot match. However, the focus on utility obfuscates a reality that permeates much&mdash;if not all&mdash;of web3: sometimes demand exists just for the token itself. In other words, *miners gonna mine*.
 
-Does this even matter, though? From a market perspective, the answer is a resounding *no*. Markets are always right and who are we to say otherwise.
+How do you separate demand for actual utility from demand for tokens as assets of their own? This is what ENTROPY is here to do. The ENTROPY network mines nothing but pure, valueless randomness. Its utility is literally zero and any token value it accrues exists entirely outside conventional notions of usefulness.
 
-Pure DePIN embraces the supply-driven mantra and focuses purely on expanding DePIN supply. Whether it be mining for the sake of mining or promoting the interests of DePIN enthusiasts, Pure DePIN is there to satisfy the demand of the supply side before all else.
+By this definition, ENTROPY is *art*, if art is everything that is not utility. It is also the lower bound of crypto: any project with a market cap below ENTROPY is doing less than nothing, but with extra steps.
+
+So, keep your utility. Bring the non-utility home. Mine entropy, with ENTROPY.
 
 ## Products
 
 ### [ENTROPY ZERO](./category/entropy-zero)
 
-Pure DePIN is proud to present the ENTROPY network, the first DePIN that is also a memecoin.
+Just ENTROPY is proud to present the ENTROPY network, the first DePIN that is also a memecoin.
+
+### [Phantasmagoria](./category/entropy-zero)
+
+Collectible pieces of art on the DRiP platform.
+
+### [Ashlar](./category/entropy-a)
+
+The first miner 

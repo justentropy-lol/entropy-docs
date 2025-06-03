@@ -20,12 +20,12 @@ Valuing nothingness above rationally justified expected value is a type of _nihi
 
 With no intrinsic value to the data it mines, ENTROPY is therefore a memecoin.
 
-## DePIN coins
+## The lower bound
 
-The entire DePIN sector is novel and its value is questionable. Fortunes will be made and lost identifying the truly valuable aspects of DePIN. Fortunes will also be made and lost identifying what is not truly valuable but what market participants might value at a particular time.
+The entire web3 sector is novel and its value is questionable. Fortunes will be made and lost identifying the truly valuable aspects of web3. Fortunes will also be made and lost identifying what is not truly valuable but what market participants might value at a particular time.
 
-ENTROPY is all about serving as the zero bound on all the noise. There is no "intrinsic value" to the data that the ENTROPY network mines. Therefore, it is safe to say that any success of the ENTROPY network relates to its value as a DePIN project _per se_ and not the data it provides. 
+ENTROPY is all about serving as the zero bound on all the noise. There is no "intrinsic value" to the data that the ENTROPY network mines. Therefore, it is safe to say that any success of the ENTROPY network relates to its value as a project _per se_ and not the data it provides. 
 
-ENTROPY may therefore serve as the DePIN lower bound:
+ENTROPY may therefore serve as the web3 lower bound:
 
-**A DePIN project less successful than ENTROPY is by definition worth less than nothing.**
+**A web3 project less successful than ENTROPY is by definition worth less than nothing.**
