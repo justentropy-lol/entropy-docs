@@ -13,17 +13,3 @@ How do you separate demand for actual utility from demand for tokens as assets o
 By this definition, ENTROPY is *art*, if art is everything that is not utility. It is also the lower bound of crypto: any project with a market cap below ENTROPY is doing less than nothing, but with extra steps.
 
 So, keep your utility. Bring the non-utility home. Mine entropy, with ENTROPY.
-
-## Products
-
-### [ENTROPY ZERO](./category/entropy-zero)
-
-Just ENTROPY is proud to present the ENTROPY network, the first DePIN that is also a memecoin.
-
-### [Phantasmagoria](./category/entropy-zero)
-
-Collectible pieces of art on the DRiP platform.
-
-### [Ashlar](./category/entropy-a)
-
-The first miner 
