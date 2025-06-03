@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ![alt text](/img/ashlar/ashlar.jpg)
 
-The Ashlar is our custom engineered ESP32 mining device. It comes from the factory pre-flashed. All you have to do is plug it in, connect to your 2.4GHz Wi-Fi network, and provide your Solana public address.
+The Ashlar is our custom engineered ESP32 mining device. It comes from the factory pre-flashed. All you have to do is plug it in, connect to your 2.4GHz Wi-Fi network, and provide your Solana public address. Support is available in the [Discord server](https://discord.gg/minerseatfirst).
 
 ## Prerequisites
 * A mobile phone running Android or iOS
