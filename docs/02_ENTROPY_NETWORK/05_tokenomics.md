@@ -60,3 +60,7 @@ Effectively, entropy deficit may be resolved directly through mining. Because to
 ### Jeeter Deleter
 
 The adaptive threshold corresponding to the ratio of amount of tokens held in a wallet to the amount of tokens claimed changes daily. This threshold is hidden from miners to obfuscate its function. Seven days spent below the threshold results in permanent loss of mining priviliges for that miner.
+
+### Limit on miners
+
+Individuals or households that are caught mining with more than five Ashlars will have the mining priviliges of those Ashlars permanently revoked.
