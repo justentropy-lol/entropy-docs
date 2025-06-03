@@ -37,21 +37,21 @@ On mobile devices, you will need to use the browser built into the wallet app. C
 
 ![alt text](/img/ashlar/icon_ignition.jpeg) ![alt text](/img/ashlar/icon_genesis.jpeg)
 
-7. Tap the Entropy logo to start the provisioning process.
+7. Tap the button or logo to start the provisioning process.
 
-![alt text](/img/ashlar/genesis_1.jpeg)
+![alt text](/img/ashlar/ignition_1.PNG) ![alt text](/img/ashlar/genesis_1.jpeg) 
 
 8. Select Ashlar from the list of available devices.
 
-![alt text](/img/ashlar/genesis_2.jpeg)
+![alt text](/img/ashlar/ignition_2.PNG) ![alt text](/img/ashlar/genesis_2.jpeg)
 
 9. Enter the address of your new solana wallet and hit submit.
 
-![alt text](/img/ashlar/genesis_3.jpeg)
+![alt text](/img/ashlar/ignition_3.PNG) ![alt text](/img/ashlar/genesis_3.jpeg)
 
-10. Select your Wifi network and enter the password when prompted.
+10. Select your Wi-Fi network and enter the password when prompted.
 
-![alt text](/img/ashlar/genesis_4.jpeg)
+![alt text](/img/ashlar/ignition_4.PNG) ![alt text](/img/ashlar/genesis_4.jpeg)
 
 11. The LEDs will pulse green if the Ashlar successfully connects to your Wi-Fi network. If not, they will turn red. If the process failed, go back to step 7 and repeat.
 
