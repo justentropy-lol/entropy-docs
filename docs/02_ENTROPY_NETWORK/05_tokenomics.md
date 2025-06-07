@@ -63,4 +63,4 @@ The adaptive threshold corresponding to the ratio of amount of tokens held in a 
 
 ### Limit on miners
 
-Individuals or households that are caught mining with more than five Ashlars will have the mining priviliges of those Ashlars permanently revoked.
+We discourage and will not provide support for multi-mining. Individuals or households that are caught mining with more than five Ashlars will have the mining priviliges of those Ashlars permanently revoked.

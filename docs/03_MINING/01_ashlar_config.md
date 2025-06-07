@@ -15,7 +15,7 @@ The Ashlar is our custom engineered ESP32 mining device. It comes from the facto
 * An Ashlar
 * A Solana wallet
 
-If you are using a computer you will need a wallet plug-in installed in your browser of choice. Chrome seems to be the most trouble-free. We support Phantom, Solflare, and Backpack wallet plug-ins. The use of a ledger device is supported by all three. Other device and wallet combos may also work. Be aware that using a hardware wallet may slightly slow down the claims process.
+If you are using a computer you will need a wallet plug-in installed in your browser of choice. Chrome seems to be the most trouble-free. We support Phantom, Solflare, and Backpack wallet plug-ins. The use of a Ledger device is supported by all three. Other device and wallet combos may also work. Be aware that using a hardware wallet may slightly slow down the claims process.
 
 On mobile devices, you will need to use the browser built into the wallet app. Claiming directly from a normal browser on a mobile device does not work. We support Phantom, Solflare, and Backpack wallets.
 
@@ -27,7 +27,10 @@ On mobile devices, you will need to use the browser built into the wallet app. C
 2. Insert the Ashlar into the base. It only fits into the base in one orientation (as illustrated below). Do not try to force it in place. Plug the base into the wall using the provided power supply and *power only* cable. It will greet you by gently pulsing its LEDs. Say good morning.
 ![alt text](/img/ashlar/setup.jpg)
 
-3. Download the Ashlar provisioning app from the [App store](https://testflight.apple.com/join/VHttnEXp) or [Google Play](https://play.google.com/store/apps/details?id=com.entropy.wifi_provisioning). Note that the iOS app is currently in public beta on Testflight. 
+3. Download the Ashlar provisioning app from the [App store](https://apps.apple.com/us/app/ashlar-ignition/id6746181634) or [Google Play](https://play.google.com/store/apps/details?id=com.entropy.wifi_provisioning). 
+
+<a href="https://apps.apple.com/us/app/ashlar-ignition/id6746181634" target="_blank"><img src="/img/Download_on_App_Store.svg" alt="App Store" width="180px"/></a>
+<a href="https://play.google.com/store/apps/details?id=com.entropy.wifi_provisioning" target="_blank"><img src="/img/Download_on_Google_Play.png" alt="Google Play" width="200px"/></a>
 
 4. Fund your Solana wallet with about 0.03 SOL. It is strongly recommended that you create a **NEW** Solana wallet that will be used exclusively for this Ashlar.
 
