@@ -60,7 +60,7 @@ On mobile devices, you will need to use the browser built into the wallet app. C
 
 12. The last step in the process is to make your first claim. In order to verify that your device is functioning we have gifted you 1142 ENT. This amount becomes available when your Ashlar registers itself. After making this first claim, your Ashlar will be permenantly tied to you wallet address. Do not lose track of this wallet as it will be permanently required to claim. 
 
-**Before attempting to make your first claim, please make sure you have about some SOL in your mining wallet, at least 0.03 if it does not hold any ENT.**
+**Before attempting to make your first claim, please make sure you have at least 0.03 SOL in your mining wallet.**
 
 **In order to begin mining ENT, you must make your first claim. You will not mine any ENT until after your first claim.**
 
