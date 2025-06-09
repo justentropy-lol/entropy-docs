@@ -32,7 +32,7 @@ On mobile devices, you will need to use the browser built into the wallet app. C
 <a href="https://apps.apple.com/us/app/ashlar-ignition/id6746181634" target="_blank"><img src="/img/Download_on_App_Store.svg" alt="App Store" width="180px"/></a>
 <a href="https://play.google.com/store/apps/details?id=com.entropy.wifi_provisioning" target="_blank"><img src="/img/Download_on_Google_Play.png" alt="Google Play" width="200px"/></a>
 
-4. Fund your Solana wallet with about 0.03 SOL. It is strongly recommended that you create a **NEW** Solana wallet that will be used exclusively for this Ashlar.
+4. Create a **new** Solana that will be used exclusively for this Ashlar. **Each Ashlar must have a unique solana wallet address, they cannot share a wallet.** Fund your Solana wallet with about 0.03 SOL. 
 
 5. Turn on your phone's Bluetooth.
 
