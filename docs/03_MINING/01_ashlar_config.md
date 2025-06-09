@@ -32,7 +32,7 @@ On mobile devices, you will need to use the browser built into the wallet app. C
 <a href="https://apps.apple.com/us/app/ashlar-ignition/id6746181634" target="_blank"><img src="/img/Download_on_App_Store.svg" alt="App Store" width="180px"/></a>
 <a href="https://play.google.com/store/apps/details?id=com.entropy.wifi_provisioning" target="_blank"><img src="/img/Download_on_Google_Play.png" alt="Google Play" width="200px"/></a>
 
-4. Fund your Solana wallet with about 0.03 SOL. It is strongly recommended that you create a **NEW** Solana wallet that will be used exclusively for this Ashlar.
+4. Create a **new** Solana that will be used exclusively for this Ashlar. **Each Ashlar must have a unique solana wallet address, they cannot share a wallet.** Fund your Solana wallet with about 0.03 SOL. 
 
 5. Turn on your phone's Bluetooth.
 
@@ -61,6 +61,8 @@ On mobile devices, you will need to use the browser built into the wallet app. C
 12. The last step in the process is to make your first claim. In order to verify that your device is functioning we have gifted you 1142 ENT. This amount becomes available when your Ashlar registers itself. After making this first claim, your Ashlar will be permenantly tied to you wallet address. Do not lose track of this wallet as it will be permanently required to claim. 
 
 **Before attempting to make your first claim, please make sure you have about some SOL in your mining wallet, at least 0.03 if it does not hold any ENT.**
+
+**In order to begin mining $ENT, you must make your first claim. You will not mine any $ENT until after your first claim.**
 
 ### Claiming from a computer
 a) Unlock your wallet
