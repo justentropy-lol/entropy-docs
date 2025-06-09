@@ -62,6 +62,8 @@ On mobile devices, you will need to use the browser built into the wallet app. C
 
 **Before attempting to make your first claim, please make sure you have about some SOL in your mining wallet, at least 0.03 if it does not hold any ENT.**
 
+**In order to begin mining $ENT, you must make your first claim. You will not mine any $ENT until after your first claim.**
+
 ### Claiming from a computer
 a) Unlock your wallet
 
